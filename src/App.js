@@ -22,7 +22,7 @@ const calculateWinner=(squares)=>{
 };
 
 const Square=({value,onClick})=>(
-  <button className='sqaure' onClick={onClick}>{value}</button>
+  <button className='square' onClick={onClick}>{value}</button>
 );
 
 const Board=({squares,onClick})=>(
